@@ -1,0 +1,101 @@
+*Info*    Exporting services from client ... 
+
+*Info*    Client has finished starting ... 
+
+
+
+*Info*    Configuring the session ...
+
+	Library      = lib4602
+	Cell         = tb_opamp4602
+	View         = schematic
+	Simulator    = spectre
+	State Path   = $AXL_SETUPDB_DIR/test_states
+	State Name   = ExplorerRun.0
+	Results DB   = /home/eleccds/cadence/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0.rdb
+	Results Dir  = /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_opamp4602:1
+	Results Loc  = /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro
+	Project Dir  = /home/eleccds/simulation
+	Setup DB loc = /home/eleccds/cadence/lib4602/tb_opamp4602/maestro
+	File Encoding = 0
+
+
+*Info*    The simulation mode in Spectre has been changed from
+          'interactive' to 'batch' mode because ICLP.
+
+
+*Info*    The auto suspension is disabled.
+
+Loading monte.cxt 
+
+
+
+
+
+*Info*    Run start for Point ID (0 1) on testbench [
+          lib4602:tb_opamp4602:1 ].
+
+Resetting statistical vars
+
+*Info*    Setting parameter values ...
+
+Setting var cc = "1.0p"
+Setting var rc = "1"
+Setting temp(T) = 27
+
+*Info*    Netlist Directory =
+          /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_opamp4602:1/netlist
+
+
+*Info*    Data Directory    =
+          /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_opamp4602:1
+
+
+*Info*    Creating Netlist for Point ID (0 1)
+
+generate netlist...
+Loading seCore.cxt 
+Initializing the control file using cp:
+    cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_opamp4602:1/netlist/control
+Copying Spectre source file 'spectre.inp'
+Copying Spectre command file 'spectre.sim'
+Begin Incremental Netlisting Oct 14 11:28:17 2026
+End netlisting Oct 14 11:28:17 2026
+
+Netlisting Statistics:
+	Number of components:   20
+
+	Elapsed time:          0.0s
+Errors: 0	Warnings: 0
+      ...successful.
+compose simulator input file...
+      ...successful.
+
+*Info*    Running simulation on testbench [ lib4602:tb_opamp4602:1 ]
+          for Point ID (0 1).
+
+Delete psf data in /home/eleccds/simulation/lib4602/tb_opamp4602/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_opamp4602:1/psf.
+compose simulator input file...
+      ...successful.
+start simulator if needed...
+      ...successful.
+simulate...
+To view the simulator output, right-click on the test name, result 
+name, or any value in the "Results" tab of the Outputs section and 
+choose "Output Log" menu option.
+INFO (ADE-3071): Simulation completed successfully.
+reading simulation data...
+      ...successful.
+*Info*    Client has finished evaluating ... 
+
+
+*Info*    Run complete for Point ID (0 1) on testbench [
+          lib4602:tb_opamp4602:1 ].
+
+
+
+
+
+Simulation design variables differ from those on the cellView,
+they have been saved in the file "/tmp/saved-design-variables".
+To save future changes, copy variables to cellView before exiting.

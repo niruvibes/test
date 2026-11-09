@@ -1,0 +1,21 @@
+*lvsRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreLVS.rul
+*lvsRunDir: /home/eleccds/cadence
+*lvsLayoutPaths: nor4602.calibre.db
+*lvsLayoutPrimary: nor4602
+*lvsLayoutLibrary: lib4602
+*lvsLayoutView: layout
+*lvsLayoutGetFromViewer: 1
+*lvsSourcePath: nor4602.src.net
+*lvsSourcePrimary: nor4602
+*lvsSourceLibrary: lib4602
+*lvsSourceView: schematic
+*lvsSpiceFile: nor4602.sp
+*lvsERCDatabase: nor4602.erc.results
+*lvsERCSummaryFile: nor4602.erc.summary
+*lvsReportFile: nor4602.lvs.report
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: lib4602
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: nor4602.def

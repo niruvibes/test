@@ -1,0 +1,11 @@
+* SPICE NETLIST
+***************************************
+
+.SUBCKT nor4602 B A VDD GND Y
+** N=6 EP=5 IP=0 FDC=4
+M0 Y A GND GND NMOS_VTG L=5e-08 W=9e-08 AD=1.26e-14 AS=1.3275e-14 PD=4.6e-07 PS=4.75e-07 $X=140 $Y=-180 $D=5
+M1 GND B Y GND NMOS_VTG L=5e-08 W=9e-08 AD=9.675e-15 AS=1.26e-14 PD=3.95e-07 PS=4.6e-07 $X=520 $Y=-180 $D=5
+M2 6 A VDD VDD PMOS_VTG L=5e-08 W=2.7e-07 AD=3.78e-14 AS=3.7125e-14 PD=8.2e-07 PS=8.15e-07 $X=140 $Y=1105 $D=4
+M3 Y B 6 VDD PMOS_VTG L=5e-08 W=2.7e-07 AD=3.51e-14 AS=3.78e-14 PD=8e-07 PS=8.2e-07 $X=520 $Y=1105 $D=4
+.ENDS
+***************************************

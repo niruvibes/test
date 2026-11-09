@@ -1,0 +1,16 @@
+*drcRulesFile: $PDK_DIR/ncsu_basekit/techfile/calibre/calibreDRC.rul
+*drcRunDir: /home/eleccds/cadence
+*drcLayoutPaths: nor46021.calibre.db
+*drcLayoutPrimary: nor46021
+*drcLayoutLibrary: lib4602
+*drcLayoutView: layout
+*drcLayoutGetFromViewer: 1
+*drcResultsFile: nor46021.drc.results
+*drcSummaryFile: nor46021.drc.summary
+*cmnWarnLayoutOverwrite: 0
+*cmnSlaveHosts: {use {}} {hostName {}} {cpuCount {}} {a32a64 {}} {rsh {}} {maxMem {}} {workingDir {}} {layerDir {}} {mgcLibPath {}} {launchName {}}
+*cmnLSFSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnGridSlaveTbl: {use 1} {totalCpus 1} {minCpus 1} {architecture {{}}} {minMemory {{}}} {resourceOptions {{}}} {submitOptions {{}}}
+*cmnFDILayoutLibrary: lib4602
+*cmnFDILayoutView: layout
+*cmnFDIDEFLayoutPath: nor46021.def

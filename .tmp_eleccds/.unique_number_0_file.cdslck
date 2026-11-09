@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      eleccds
+HostName                       vbox
+ProcessIdentifier              5285
+ProcessCreationTime_UTC        1791192708
+ProcessCreationTime_Readable   Mon Oct  5 20:31:48 2026 AEDT
+AppIdentifier                  /usr/local/cadence/IC617-500-23/tools/dfII/bin/64bit/virtuoso
+OSType                         lnx86
+ReasonForPlacingEditLock       Lock file for generating unique number for ICRP command and log file directories.
+FilePathUsedToEditLock         /home/eleccds/cadence/.tmp_eleccds/.unique_number_0_file
+TimeEditLocked                 Mon Oct  5 21:03:05 2026 AEDT

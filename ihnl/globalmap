@@ -1,0 +1,10 @@
+CADENCE IHNL11140
+$model
+lib4602/nor4602/schematic nor4602
+$endmodel
+$net
+gnd! gnd!
+vdd! vdd!
+$endnet
+$param
+$endparam

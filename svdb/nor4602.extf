@@ -1,0 +1,9 @@
+# Automagically generated file: Please do not edit!
+lvs_ExtfVersion 3
+lvs_ExtRunTimes 1791197946 1791197946
+lvs_ExtOutFile RUNDIR /home/eleccds/cadence
+lvs_ExtOutFile RULES_FILE /home/eleccds/cadence/_calibreLVS.rul_
+lvs_ExtInfoExtSummary {0 0 0 0 0 0 0 0 0 0 0}
+lvs_ExtInfoDfmSummary {0}
+lvs_ExtOutFile LAYOUT_NETLIST /home/eleccds/cadence/nor4602.sp
+lvs_ExtOutFile EXTRACTION_REPORT nor4602.lvs.report.ext
