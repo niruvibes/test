@@ -47,3 +47,7 @@
 \a cdsLibManager->viewLineEdit->value = "schematic"
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->gdmXTView 1 0)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
