@@ -52,6 +52,9 @@
 					<output>/Ci
 						<evalType>point</evalType>
 					</output>
+					<output>/Sboost
+						<evalType>point</evalType>
+					</output>
 				</outputs>
 			</test>
 		</tests>
@@ -143,6 +146,9 @@
 								<evalType>point</evalType>
 							</output>
 							<output>/Ci
+								<evalType>point</evalType>
+							</output>
+							<output>/Sboost
 								<evalType>point</evalType>
 							</output>
 						</outputs>
@@ -245,7 +251,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 15 21:08:07 2026</timestamp>
+			<timestamp>Nov 16 00:00:58 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -253,7 +259,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_210807190</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_000058898</localpsfdir>
 			<psfdir>/home/eleccds/simulation/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>

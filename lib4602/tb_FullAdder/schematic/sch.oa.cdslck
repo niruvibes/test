@@ -6,11 +6,11 @@
 LockStakeVersion               1.1
 LoginName                      eleccds
 HostName                       vbox
-ProcessIdentifier              3272
-ProcessCreationTime_UTC        1794732770
-ProcessCreationTime_Readable   Sun Nov 15 19:52:50 2026 AEDT
+ProcessIdentifier              3425
+ProcessCreationTime_UTC        1794742608
+ProcessCreationTime_Readable   Sun Nov 15 22:36:48 2026 AEDT
 AppIdentifier                  OA File System Design Manager
 OSType                         unix
 ReasonForPlacingEditLock       OpenAccess edit lock
-FilePathUsedToEditLock         /home/eleccds/cadence/lib4602/tb_FullAdder/schematic/sch.oa.cdslck
-TimeEditLocked                 Sun Nov 15 19:54:39 2026 AEDT
+FilePathUsedToEditLock         /home/eleccds/cadence/lib4602/tb_FullAdder/schematic/sch.oa.cdslck.dirlck
+TimeEditLocked                 Sun Nov 15 23:13:07 2026 AEDT
