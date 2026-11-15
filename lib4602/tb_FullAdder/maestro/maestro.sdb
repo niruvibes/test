@@ -245,7 +245,7 @@
 				<allsweepsenabled>1</allsweepsenabled>
 				<sortVariableValues>0</sortVariableValues>
 			</checkpoint>
-			<timestamp>Nov 9 23:14:45 2026</timestamp>
+			<timestamp>Nov 15 16:45:43 2026</timestamp>
 			<resultsname>/home/eleccds/cadence/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0.rdb</resultsname>
 			<simresults>$AXL_SETUPDB_DIR/results/maestro/ExplorerRun.0.rdb</simresults>
 			<rawdatadelstrategy>SaveAll
@@ -253,7 +253,7 @@
 			</rawdatadelstrategy>
 			<netlistdelstrategy>SaveAll</netlistdelstrategy>
 			<uselocalpsfdir>false</uselocalpsfdir>
-			<localpsfdir>/tmp/vbox_eleccds_231445717</localpsfdir>
+			<localpsfdir>/tmp/vbox_eleccds_164543743</localpsfdir>
 			<psfdir>/home/eleccds/simulation/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0</psfdir>
 			<simdir>$AXL_PROJECT_DIR/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0</simdir>
 			<gendatasheetplotsonsimulation>1</gendatasheetplotsonsimulation>
