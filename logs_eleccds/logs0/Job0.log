@@ -1,16 +1,16 @@
-\# Program start time:     UTC 2026.11.15 05:39:18.047
-\# Local time: AEDT (UTC+11:00) 2026.11.15 16:39:18.047
+\# Program start time:     UTC 2026.11.15 08:53:12.093
+\# Local time: AEDT (UTC+11:00) 2026.11.15 19:53:12.093
 \o Program:		@(#)$CDS: virtuoso version 6.1.7-64b 12/04/2018 19:24 (sjfhw316) $
 \o Hierarchy:		/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/
 \o Sub version:		sub-version  IC6.1.7-64b.500.23  (64-bit addresses)
-\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3085 -mpshost vbox -davinciService DaVinciService_3085_1794721153 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_3085 -nograph -nostdin -axlChildIdFlag 0
+\# Command line:	/usr/local/cadence/IC617-500-23/tools.lnx86/dfII/bin/64bit/virtuoso -noautostart -mpssession virtuoso3272 -mpshost vbox -davinciService DaVinciService_3272_1794732787 -log /home/eleccds/cadence/logs_eleccds/logs0/Job0.log -licenseLockFileName /home/eleccds/cadence/.tmp_eleccds/.vbox_3272 -nograph -nostdin -axlChildIdFlag 0
 \# Host name (type):	vbox (x86_64)
 \# Operating system:	Linux 3.10.0-1160.71.1.el7.x86_64 #1 SMP Wed Jun 15 08:55:08 UTC 2022
 \# Linux /etc/issue:	\S
 \# Linux /etc/issue:	Kernel \r on an \m
 \# X display name (WxH):	:95 (1024x868)
 \# Available geometry:			TL(0:0) BR(1023:867)
-\# X server:			RealVNC Ltd (VNC nograph server, PID 4012)
+\# X server:			RealVNC Ltd (VNC nograph server, PID 4144)
 \# Depth of Visual (Root):	16 (16)
 \# Number of Planes Used:	16
 \# X version:		11.0 (vendor release 3370)
@@ -18,11 +18,11 @@
 \# 			current id 0x0, current max 0x3ffffa (4194298)
 \# Max data seg size:	     unlimited
 \# Max process size:	     unlimited
-\# Initial sbrk value:	        482 MB
-\# Available memory:	      6,511 MB
+\# Initial sbrk value:	        462 MB
+\# Available memory:	      6,479 MB
 \# System memory:	      7,757 MB
-\# Maximum memory size:	      7,350 MB
-\# Max mem available:	      6,586 MB
+\# Maximum memory size:	      7,370 MB
+\# Max mem available:	      6,554 MB
 \# Initial memory used:	         75 MB
 \#        process size:	      1,066 MB
 \# Thread usage limits (effective/default):	maxthreads 4096/4096 maxload 1.00/1.00
@@ -30,7 +30,7 @@
 \# Window Manager:	other
 \# User Name:		eleccds
 \o Working Directory:	vbox:/home/eleccds/cadence
-\# Process Id:		4032
+\# Process Id:		4165
 \o 
 \o COPYRIGHT (C) 1992-2018  CADENCE DESIGN SYSTEMS INC.  ALL RIGHTS RESERVED.
 \o           (C) 1992-2018  UNIX SYSTEMS Laboratories INC.,
@@ -68,7 +68,8 @@
 \o Loading adexl.cxt 
 \o *Info*    Exporting services from client ... 
 \o 
-\o *INFO* (icLic-303) virtuoso: PID=4032, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\o *INFO* (icLic-303) virtuoso: PID=4165, Child Mode is true, ICPR Mode is true, Registration Timeout is 180 seconds, Communication Timeout is 180 seconds.
+\# Memory report: using         197 MB, process size 1,310 MB at UTC 2026.11.15 08:53:13.186
 \o //
 \o //  Calibre Skill Interface * (v2019.1_18.11) *
 \o //
@@ -79,7 +80,6 @@
 \o //              OR ITS LICENSORS AND IS SUBJECT TO LICENSE TERMS.
 \o //
 \o //
-\# Memory report: using         204 MB, process size 1,317 MB at UTC 2026.11.15 05:39:19.501
 \e *Error* iliMakeDefstruct: defstruct field name not known - (GlobalDefs ?MinWTO)
 \o loading vars from /usr/local/cadence/FreePDK45/ncsu_basekit/cdssetup/cdsenv for tool layout
 \o ---------------------------------------------------------------------------
@@ -125,15 +125,15 @@
 \o Loading pe.cxt 
 \a _treeSetOpcGUI(t)
 \r t
-\# Available memory:          6,324 MB at UTC 2026.11.15 05:39:28.308
-\# Memory report: Maximum memory size now 6,531 MB at UTC 2026.11.15 05:39:28.308
-\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.15 05:39:28.309
-\# Memory report: Maximum memory size now 6,401 MB at UTC 2026.11.15 05:43:38.331
+\# Available memory:          6,284 MB at UTC 2026.11.15 08:53:22.374
+\# Memory report: Maximum memory size now 6,491 MB at UTC 2026.11.15 08:53:22.375
+\# Thread usage report: 2 active threads, active load 1.00 at UTC 2026.11.15 08:53:22.375
+\# Memory report: Maximum memory size now 6,347 MB at UTC 2026.11.15 08:56:22.422
 \o Job 0 timed out after no activity in 300 seconds.
 \o Loading simui.cxt 
 \o 
 \o *Info*    Received signal SIGTERM.
 \o 
 \o 
-\# Memory report: on exit            211 MB, process size 1,324 MB at UTC 2026.11.15 05:44:19.547
+\# Memory report: on exit            211 MB, process size 1,324 MB at UTC 2026.11.15 08:58:14.038
 \# Memory report: peak usage         211 MB, process size 1,324 MB

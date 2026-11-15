@@ -57,8 +57,8 @@ Initializing the control file using cp:
     cp /usr/local/cadence/IC617-500-23/tools.lnx86/dfII/etc/si/control.spectre /home/eleccds/simulation/lib4602/tb_FullAdder/maestro/results/maestro/ExplorerRun.0/1/lib4602:tb_FullAdder:1/netlist/control
 Copying Spectre source file 'spectre.inp'
 Copying Spectre command file 'spectre.sim'
-Begin Incremental Netlisting Nov 15 16:39:59 2026
-End netlisting Nov 15 16:39:59 2026
+Begin Incremental Netlisting Nov 15 19:53:34 2026
+End netlisting Nov 15 19:53:34 2026
 
 Netlisting Statistics:
 	Number of components:   35
