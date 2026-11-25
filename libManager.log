@@ -1,71 +1,155 @@
 \o Program:		@(#)$CDS: libManager version 6.1.7 - CAT35 10/30/2018 21:08 (sjfnl050) $
 \o Sub version:		sub-version  s231 
-\o Arguments:		-mpssession virtuoso2958 -mpshost vbox 
+\o Arguments:		-mpssession virtuoso3278 -mpshost vbox 
 \o Working Directory:	vbox:/home/eleccds/cadence
 \o 64-bit offsets
 \o Qt version: 		4.8.5
 \o Log file is "/home/eleccds/cadence/libManager.log".
 \o Opening libManager window.
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrResizeWindow(cdsLibManager list(-10 20 1918 883))
+\a nrResizeWindow(cdsLibManager list(-10 20 1291 823))
 \o changeWorkingDir("/home/eleccds/cadence") unnecessary.
 \o ddSetForcedLib("") unnecessary.
 \o MPS service: map window
 \o Library Manager customization server connected.
+\a cdsLibManager->libListBox->value = "analogLib"
+\a cdsLibManager->libLineEdit->value = "analogLib"
+\a nrListItemAction(cdsLibManager->libListBox "analogLib" 0)
 \a cdsLibManager->libListBox->value = "lib4602"
 \a cdsLibManager->libLineEdit->value = "lib4602"
-\a lmgrLogShowPopup("mainListPopup1" 179 229 2 "")
+\a cdsLibManager->cellListBox->value = "flipFlop"
+\a cdsLibManager->cellLineEdit->value = "flipFlop"
 \a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "buf"
-\a cdsLibManager->cellLineEdit->value = "buf"
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a cdsLibManager->cellListBox->value = "buf"
-\a cdsLibManager->cellLineEdit->value = "buf"
+\a cdsLibManager->cellListBox->value = "tb_flipflop"
+\a cdsLibManager->cellLineEdit->value = "tb_flipflop"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 1 0)
+\a nrListItemAction(cdsLibManager->cellListBox 9 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "lib4602"
 \a cdsLibManager->libLineEdit->value = "lib4602"
-\a cdsLibManager->cellListBox->value = "buf"
-\a cdsLibManager->cellLineEdit->value = "buf"
+\a cdsLibManager->cellListBox->value = "tb_flipflop"
+\a cdsLibManager->cellLineEdit->value = "tb_flipflop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
-\a cdsLibManager->cellListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 128 280 2 "")
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->FileNewCVButton->value = t
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "not"
-\a cdsLibManager->cellLineEdit->value = "not"
+\a cdsLibManager->cellListBox->value = "BCD"
+\a cdsLibManager->cellLineEdit->value = "BCD"
 \o MPS request: edit design
-\a nrListItemAction(cdsLibManager->cellListBox 5 0)
+\a nrListItemAction(cdsLibManager->cellListBox 0 0)
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "lib4602"
 \a cdsLibManager->libLineEdit->value = "lib4602"
-\a cdsLibManager->cellListBox->value = "not"
-\a cdsLibManager->cellLineEdit->value = "not"
+\a cdsLibManager->cellListBox->value = "BCD"
+\a cdsLibManager->cellLineEdit->value = "BCD"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a lmgrLogShowPopup("mainListPopup2" 34 13 2 "maestro")
+\a cdsLibManager->editDeleteButton->value = t
+\a deleteForm->deleteBothRadioButton->value = t
+\a deleteForm->deleteFilterEdit->value = "*"
+\a deleteForm->notDeleteFilterEdit->value = "*"
+\a nrSetWindowVisibility(deleteForm "show")
+\a nrSetCurrentWindow(deleteForm)
+\a nrResizeWindow(deleteForm list(312 216 627 425))
+\a deleteForm->OK->value = t
+\o QUESTION (CLM-199): The following 1 items are marked for deletion.  Are you sure?
+\a nrSetWindowVisibility(mcMBXDLG "show")
+\a nrSetCurrentWindow(mcMBXDLG)
+\a nrResizeWindow(mcMBXDLG list(458 297 334 278))
+\a mcMBXDLG->pushButton1->value = t
+\o Deleting view "maestro" from cell "BCD" in library "lib4602".
+\a nrSetWindowVisibility(workingDialogForm "show")
+\o Deleted cellview 'lib4602/BCD/maestro'.
+\o Deletion of 1 view done.
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(workingDialogForm)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
-\a lmgrLogShowPopup("mainListPopup1" 31 202 2 "")
-\a cdsLibManager->cellListBox->value = "tsInverter"
-\a cdsLibManager->cellLineEdit->value = "tsInverter"
-\a cdsLibManager->cellListBox->value = "not"
-\a cdsLibManager->cellLineEdit->value = "not"
-\a lmgrLogShowPopup("mainListPopup1" 20 94 2 "not")
+\a cdsLibManager->cellLineEdit->value = ""
+\a nrResizeWindow(workingDialogForm list(511 295 268 133))
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->libListBox->value = "lib4602"
+\a cdsLibManager->libLineEdit->value = "lib4602"
+\a cdsLibManager->cellListBox->value = "BCD"
+\a cdsLibManager->cellLineEdit->value = "BCD"
+\a cdsLibManager->viewListBox->value = "maestro"
+\a cdsLibManager->viewLineEdit->value = "maestro"
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewLibButton->value = t
+\a nrSetWindowVisibility(NewLibShell "show")
+\a NewLibShell->QLineEdit2->value = "/home/eleccds/cadence/"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(382 108 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "buf"
+\a cdsLibManager->cellLineEdit->value = "buf"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->FileNewLibButton->value = t
+\a NewLibShell->QLineEdit2->value = ""
+\a nrSetWindowVisibility(NewLibShell->subDialog "show")
+\a nrSetWindowVisibility(NewLibShell "show")
+\a NewLibShell->QLineEdit2->value = "/home/eleccds/cadence/"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(NewLibShell)
+\a nrSetCurrentWindow(NewLibShell->subDialog)
+\a nrResizeWindow(NewLibShell list(382 108 507 559))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->FileNewCVButton->value = t
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a lmgrLogShowPopup("mainListPopup1" 51 80 2 "nand2")
 \a cdsLibManager->copySimpleButton->value = t
 \a basicCopyForm->CategoryCellsEdit->value = "*"
 \a basicCopyForm->CellsSkipLibraries->value = t
@@ -76,40 +160,53 @@
 \a basicCopyForm->CopyFromLibrary->value = "NCSU_Devices_FreePDK45"
 \a basicCopyForm->CopyToLibrary->value = "NCSU_Devices_FreePDK45"
 \a basicCopyForm->CopyFromLibrary->value = "lib4602"
-\a basicCopyForm->CopyFromCell->value = "not"
+\a basicCopyForm->CopyFromCell->value = "nand2"
 \a basicCopyForm->CopyToLibrary->value = "lib4602"
-\a basicCopyForm->CopyToCell->value = "not"
+\a basicCopyForm->CopyToCell->value = "nand2"
 \a basicCopyForm->CellsViewsToCopy->value = "schematic symbol"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = ""
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
 \a basicCopyForm->ViewsSkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
 \a nrSetWindowVisibility(basicCopyForm "show")
 \a nrSetCurrentWindow(basicCopyForm)
-\a nrResizeWindow(basicCopyForm list(727 100 444 642))
-\a basicCopyForm->CopyToCell->value = "normalInverter"
+\a nrResizeWindow(basicCopyForm list(413 80 444 642))
+\a basicCopyForm->CopyToCell->value = "nand3"
 \a nrDialogAccept(basicCopyForm)
 \a basicCopyForm->OK->value = t
-\a basicCopyForm->CopyToCell->value = "normalInverter"
+\a basicCopyForm->CopyToCell->value = "nand3"
 \o Beginning simple copy to library "lib4602".
 \o Processing files to be copied...
 \a nrSetWindowVisibility(workingDialogForm "show")
+\a nrSetCurrentWindow(workingDialogForm)
 \a nrSetWindowVisibility(workingDialogForm "show")
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(workingDialogForm)
-\a nrResizeWindow(workingDialogForm list(803 392 273 133))
+\a nrResizeWindow(workingDialogForm list(499 370 273 133))
 \a cdsLibManager->libListBox->value = nil
 \a cdsLibManager->libLineEdit->value = ""
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->cellLineEdit->value = ""
 \a cdsLibManager->libListBox->value = "lib4602"
 \a cdsLibManager->libLineEdit->value = "lib4602"
-\a cdsLibManager->cellListBox->value = "not"
-\a cdsLibManager->cellLineEdit->value = "not"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "*"
 \a basicCopyForm->CellsSkipLibrariesEdit->value = "NCSU_Devices_FreePDK45 NCSU_TechLib_FreePDK45 US_8ths analogLib basic cdsDefTechLib"
 \a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "normalInverter"
-\a cdsLibManager->cellLineEdit->value = "normalInverter"
+\a cdsLibManager->cellListBox->value = "nand3"
+\a cdsLibManager->cellLineEdit->value = "nand3"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
 \o MPS request: edit design
 \a nrListItemAction(cdsLibManager->cellListBox 5 0)
 \a cdsLibManager->libListBox->value = nil
@@ -118,24 +215,72 @@
 \a cdsLibManager->cellListBox->value = nil
 \a cdsLibManager->libListBox->value = "lib4602"
 \a cdsLibManager->libLineEdit->value = "lib4602"
-\a cdsLibManager->cellListBox->value = "normalInverter"
-\a cdsLibManager->cellLineEdit->value = "normalInverter"
-\a nrSetCurrentWindow(cdsLibManager)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
-\o MPS request: edit design
-\a nrListItemAction(cdsLibManager->gdmXTView 1 0)
-\a nrSetCurrentWindow(cdsLibManager)
-\a cdsLibManager->cellListBox->value = "tsInverter"
-\a cdsLibManager->cellLineEdit->value = "tsInverter"
+\a cdsLibManager->cellListBox->value = "nand3"
+\a cdsLibManager->cellLineEdit->value = "nand3"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
-\a cdsLibManager->viewListBox->value = "symbol"
-\a cdsLibManager->viewLineEdit->value = "symbol"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrResizeWindow(cdsLibManager list(-394 609 1291 823))
+\a nrResizeWindow(cdsLibManager list(-374 299 1291 823))
+\a nrSetCurrentWindow(cdsLibManager)
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 4 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "lib4602"
+\a cdsLibManager->libLineEdit->value = "lib4602"
+\a cdsLibManager->cellListBox->value = "nand2"
+\a cdsLibManager->cellLineEdit->value = "nand2"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a _lmgrCloseIconify("cdsLibManager" 1)
+\a nrSetCurrentWindow(cdsLibManager)
 \a cdsLibManager->cellListBox->value = "flipFlop"
 \a cdsLibManager->cellLineEdit->value = "flipFlop"
 \a cdsLibManager->viewLineEdit->value = ""
 \a cdsLibManager->viewListBox->value = nil
 \a cdsLibManager->viewListBox->value = "schematic"
 \a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\o MPS request: edit design
+\a nrListItemAction(cdsLibManager->cellListBox 3 0)
+\a cdsLibManager->libListBox->value = nil
+\a cdsLibManager->libLineEdit->value = ""
+\a cdsLibManager->cellLineEdit->value = ""
+\a cdsLibManager->cellListBox->value = nil
+\a cdsLibManager->libListBox->value = "lib4602"
+\a cdsLibManager->libLineEdit->value = "lib4602"
+\a cdsLibManager->cellListBox->value = "flipFlop"
+\a cdsLibManager->cellLineEdit->value = "flipFlop"
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = ""
+\a cdsLibManager->viewListBox->value = nil
+\a cdsLibManager->viewListBox->value = "schematic"
+\a cdsLibManager->viewLineEdit->value = "schematic"
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)
+\a nrSetCurrentWindow(cdsLibManager)

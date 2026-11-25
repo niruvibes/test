@@ -1,0 +1,13 @@
+Starting Single Run, Sweeps and Corners...
+
+Current time: Wed Nov 25 22:41:23 2026 
+Best design point: 1
+Design specs: 
+	lib4602:tb_flipflop:1	corner	Nominal - 
+Design parameters: 
+
+ExplorerRun.0
+Number of points completed: 21
+Number of simulation errors: 0
+ExplorerRun.0 completed. 
+Current time: Wed Nov 25 22:42:55 2026 
